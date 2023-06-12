@@ -35,4 +35,4 @@
             name: "Demo Job Template"
 
         - debug:
-            msg: "Awx long running rulebook, event {{ event.iteration }}"
+            msg: "Awx long running rulebook, event {{ nombre }} {{ event.iteration }}"
