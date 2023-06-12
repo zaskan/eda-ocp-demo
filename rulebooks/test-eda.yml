@@ -32,7 +32,7 @@
       actions:
         - run_job_template:
             organization: Default
-            name: Demo Job Template
+            name: "Demo Job Template"
 
         - debug:
             msg: "Awx long running rulebook, event {{ event.iteration }}"
