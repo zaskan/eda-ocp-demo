@@ -30,7 +30,7 @@
     - name: Awx long running rule
       condition: event.user == "Rick" and event.universe == "C-137"
       actions:
-        - run_job_template:
+        - ansible.eda.run_job_template:
             organization: Default
             name: "Demo Job Template"
 
